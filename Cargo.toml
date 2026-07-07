@@ -1,10 +1,10 @@
 [package]
-name = "rustdesk"
+name = "a123systems-remote-desktop"
 version = "1.4.9"
-authors = ["rustdesk <info@rustdesk.com>"]
+authors = ["A123Systems"]
 edition = "2021"
 build= "build.rs"
-description = "RustDesk Remote Desktop"
+description = "A123Systems Remote Desktop - 万向一二三远程桌面"
 default-run = "rustdesk"
 rust-version = "1.75"
 
