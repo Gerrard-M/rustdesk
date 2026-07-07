@@ -1,5 +1,5 @@
-name: flutter_a123systems
-description: A123Systems Remote Desktop
+name: flutter_a123systems_sos
+description: A123Systems SOS
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `pub publish`. This is preferred for private packages.

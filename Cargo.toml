@@ -1,10 +1,10 @@
 [package]
-name = "a123systems-remote-desktop"
+name = "a123systems-sos"
 version = "1.4.9"
 authors = ["A123Systems"]
 edition = "2021"
 build= "build.rs"
-description = "A123Systems Remote Desktop - 万向一二三远程桌面"
+description = "A123Systems SOS - 万向一二三远程协助"
 default-run = "rustdesk"
 rust-version = "1.75"
 
