@@ -350,6 +350,7 @@ prebuild)
 		# Generate FFI bindings
 
 		flutter_rust_bridge_codegen \
+			--class-name Rustdesk \
 			--rust-input ./src/flutter_ffi.rs \
 			--dart-output ./flutter/lib/generated_bridge.dart \
 			--llvm-path "${BRIDGE_LLVM_PATH}"
