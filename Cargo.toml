@@ -1,5 +1,5 @@
 [package]
-name = "a123systems-sos"
+name = "rustdesk"
 version = "1.4.9"
 authors = ["A123Systems"]
 edition = "2021"
@@ -228,8 +228,9 @@ hound = "3.5"
 docopt = "1.1"
 
 [package.metadata.bundle]
-name = "RustDesk"
-identifier = "com.carriez.rustdesk"
+name = "A123Systems SOS"
+display-name = "A123Systems SOS"
+identifier = "com.a123systems.rustdesk"
 icon = ["res/32x32.png", "res/128x128.png", "res/128x128@2x.png"]
 osx_minimum_system_version = "10.14"
 
