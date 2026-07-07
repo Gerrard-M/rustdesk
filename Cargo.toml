@@ -4,7 +4,7 @@ version = "1.4.9"
 authors = ["A123Systems"]
 edition = "2021"
 build= "build.rs"
-description = "A123Systems Remote Desktop - 万向一二三远程桌面"
+description = "A123Systems SOS - 万向一二三远程协助"
 rust-version = "1.75"
 
 [lib]
@@ -210,9 +210,14 @@ libxdo-sys = { path = "libs/libxdo-sys-stub" }
 
 [package.metadata.winres]
 LegalCopyright = "Copyright © 2026 A123Systems. All rights reserved."
-ProductName = "A123Systems Remote Desktop"
-FileDescription = "A123Systems Remote Desktop - 万向一二三远程桌面"
-OriginalFilename = "A123SystemsRemoteDesktop.exe"
+ProductName = "A123Systems SOS"
+FileDescription = "A123Systems SOS - 万向一二三远程协助"
+OriginalFilename = "A123SystemsSOS.exe"
+
+# macOS bundle settings
+[package.metadata.bundle]
+name = "A123Systems SOS"
+display-name = "A123Systems SOS"
 
 [target.'cfg(target_os="windows")'.build-dependencies]
 winres = "0.1"
